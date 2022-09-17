@@ -1,0 +1,35 @@
+﻿/* Bottom left text */
+.bottom-left {
+  position: absolute;
+ top: 130px;
+  left: 250px;
+}
+
+/* Top left text */
+.top-left {
+  position: absolute;
+  top: 130px;
+  left: 16px;
+}
+
+/* Top right text */
+.top-right {
+  position: absolute;
+  top: 130px;
+  right:250px;
+}
+
+/* Bottom right text */
+.bottom-right {
+  position: absolute;
+top: 130px;
+  right: 20px;
+}
+
+/* Centered text */
+.centered {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

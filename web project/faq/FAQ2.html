@@ -1,0 +1,156 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+  
+<head>
+  
+  <meta charset="utf-8">
+  
+  <title>Event Management</title>
+   
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+ <link rel="stylesheet" href="navbar.css">
+ 
+<link rel="stylesheet" href="queries.css">
+ 
+<link rel="stylesheet" href="imgtext.css">
+ 
+ <style>
+
+.tab {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+
+active, .tab:hover {
+  background-color: #ccc;
+}
+.subtab{
+  padding: 0 18px;
+  background-color: white;
+  display: none;
+  overflow: hidden;
+}
+.b{
+filter: blur(0px);
+}
+
+.bg-text {
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+  color: white;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  padding: 20px;
+  text-align: center;
+} 
+
+ 
+
+</style>
+<body >
+
+
+<!-- Navbar ================================================== -->
+
+
+
+<div class="topnav">
+ 
+
+ <a href="C:\Users\Admin\Downloads\web project\contact\home.html">HOME</a>
+ 
+ <a href="#about">PREVIOUS WORKS</a>
+  
+<a href="#news">ABOUT US</a>
+  
+<a href="C:\Users\Admin\Downloads\web project\services\services.html">SOME OF THE SERVICES WE PROVIDE</a>
+<a class="active" href="#FAQ">FAQ</a>
+  
+<a href="C:\Users\Admin\Downloads\web project\contact\contact.html">CONTACT</a>
+ 
+ <a href="C:\Users\Admin\Downloads\web project\aboutus\sign.html">SIGN UP</a>
+
+</div>
+
+
+
+<div class="b">
+<img src="faq.jpg" width="100%" height="400">
+<div class="centered">
+<center>
+<h1><font color="white" face="Gabriola" size="36">
+YOU ASK WE ANSWER
+</center>  </font>
+
+</h1></div>
+
+
+<br>
+<br>
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<font face="Gabriola" size="" ><h2>FREQUENTLY ASKED QUESTIONs</h2></font>
+<font face="Gabriola" size="" ><br>(click on the question to view the answer)</font>
+<div class="tab">
+<a onclick="x()" id="a">IS IT EXPENSIVE</a></div><br>
+
+<div class="tab">
+<a onclick="y()" id="b">IS IT EXPENSIVE</a></div><br>
+
+<div class="tab">
+<a onclick="z()" id="c">IS IT EXPENSIVE</a></div><br>
+<div class="tab">
+<a onclick="p()" id="d">IS IT EXPENSIVE</a></div><br>
+<div class="tab">
+<a onclick="q()" id="e">IS IT EXPENSIVE</a></div><br>
+
+<br>
+
+<form>
+    <div class="container">
+      <h1>Submit your question</h1>
+      <p>Please fill in this form to ask your query.</p>
+      <hr>
+    <b>name</b>
+      <input type="text" placeholder="Enter your name" ><BR>
+
+     <b>YOUR QUERY</b>
+      <input type="text" placeholder="ENER YOUR QUERY" ><BR>
+
+      <b>Repeat Password</b>
+      <input type="password" placeholder="Repeat Password" ><BR>
+      
+
+      <p>by clicking on the sbmit button your query will be submitted</p><BR>
+
+      <div class="clearfix">
+       
+        <button type="submit" class="signupbtn" onclick="sub()">Submit</button>
+      </div>
+    </div>
+  </form>
+
+
+<script>
+function x(){a.innerHTML="hello"}
+function y(){b.innerHTML="hello"}
+function z(){c.innerHTML="hello"}
+function p(){d.innerHTML="hello"}
+function q(){e.innerHTML="hello"}
+function sub(){alert("Your query is sucessfully submitted you may expect a reply within a few hours")}
+</script>
+</body>
+</html>
+
+
